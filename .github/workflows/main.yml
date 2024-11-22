@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v1
         with:
-          images: turabahmed/testjodejsapp
+          images: turabahmed/testjodejsapp:v1
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
